@@ -19,7 +19,6 @@ public class Activity2 extends AppCompatActivity {
 
 
         TextView textView1 = (TextView) findViewById(R.id.TextOfResult2);
-//        textView1.setText(intValue);
         textView1.setText(String.valueOf(intValue));
 
 

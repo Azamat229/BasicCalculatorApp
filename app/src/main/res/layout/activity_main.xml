@@ -13,14 +13,13 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="16dp"
+        android:autofillHints="enter first num"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="enter first num"
-        tools:ignore="LabelFor"
-        />
+        tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editText2"
@@ -28,15 +27,25 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="24dp"
+        android:autofillHints="enter second num"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText1"
-        android:autofillHints="enter second num"
-        tools:ignore="LabelFor"
-        />
+        tools:ignore="LabelFor" />
 
+    <TextView
+        android:id="@+id/here"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="65dp"
+
+        android:layout_marginEnd="153dp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonAdd"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <Button
         android:id="@+id/buttonAdd"
