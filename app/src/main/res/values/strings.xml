@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">iucaProject</string>
+    <string name="sub">-</string>
+    <string name="div">/</string>
+    <string name="add">+</string>
+    <string name="mul">*</string>
+    <string name="equ">=</string>
+</resources>
